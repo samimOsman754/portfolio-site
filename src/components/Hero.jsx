@@ -77,9 +77,9 @@ const Hero = () => {
             initial={nameTag.initial}
             animate={nameTag.animate}
             transition={nameTagTransition}
-            className="absolute -top-4 -right-32 z-30 bg-gray-900/80 backdrop-blur-sm px-5 py-2 rounded-full shadow-lg flex items-center gap-2 border border-gray-700"
+            className="absolute -top-4 -right-32 z-30 bg-gray-900/80 backdrop-blur-sm px-5 py-2 rounded-full shadow-lg flex items-center gap-2 border border-gray-700 "
           >
-            <span className="text-base font-semibold flex items-center text-gray-200">
+            <span className="text-base font-semibold flex items-center text-gray-200 ">
               Samim Osman
               <span className="ml-2 animate-waving-hand">
                 <PiHandWavingDuotone size={22} className="" />
