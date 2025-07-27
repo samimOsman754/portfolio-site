@@ -2,11 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { fadeUp, transition } from "../utils/animations";
-import WebAgency from "../assets/project/WebAgency.png"
-import Burger from "../assets/project/BurgerBuilder.png"
-import NexsjsBasic from "../assets/project/NextjsBasic.png"
-import { title } from "framer-motion/client";
-
+import WebAgency from "../assets/project/WebAgency.png";
+import Burger from "../assets/project/BurgerBuilder.png";
+import NexsjsBasic from "../assets/project/NextjsBasic.png";
 
 // NOTE: You can add your project images to the `src/assets` folder
 // and import them here, then uncomment the image property in projectsData.
@@ -31,7 +29,7 @@ const projectsData = [
       "Burger Project is a simple and responsive food ordering web app built using React.js. The goal of this project was to learn component-based UI development and manage user interaction using props, state, and basic event handling in React.",
     // image: Project2Img,
     image: Burger,
-    tags: ["React", "Tailwind CSS",],
+    tags: ["React", "Tailwind CSS"],
     liveUrl: "https://burger-project-eta.vercel.app/",
     githubUrl: "https://github.com/samimOsman754/Burger-project",
   },
@@ -45,15 +43,6 @@ const projectsData = [
     liveUrl: "https://next-js-basic-project-kohl.vercel.app/",
     githubUrl: "https://github.com/samimOsman754/next.js-basic-project",
   },
-  {
-    title: "Portfolio Website",
-    description:
-      ""
-      image: "",
-    tags: ["React", "Tailwind CSS, Framer Motion"],
-    liveUrl: "",
-    githubUrl: "",
-  }
 ];
 
 const Projects = () => {
