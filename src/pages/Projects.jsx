@@ -2,9 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { fadeUp, transition } from "../utils/animations";
+
+import PantoFurniture from "../assets/project/PantoFurniture.png";
 import WebAgency from "../assets/project/WebAgency.png";
 import Burger from "../assets/project/BurgerBuilder.png";
 import NexsjsBasic from "../assets/project/NextjsBasic.png";
+import { title } from "framer-motion/client";
 
 // NOTE: You can add your project images to the `src/assets` folder
 // and import them here, then uncomment the image property in projectsData.
@@ -13,6 +16,16 @@ import NexsjsBasic from "../assets/project/NextjsBasic.png";
 // import Project3Img from "../assets/project3.png";
 
 const projectsData = [
+  {
+    title: "Panto Furniture",
+    description: "This is a modern, responsive e-commerce web application for a furniture store built using React.js. The site showcases a clean and minimal design that highlights various furniture products with intuitive navigation and user-friendly interactions.",
+    // image: Project1Img,
+    image: PantoFurniture,
+    tags: ["React", "Tailwind CSS"],
+    liveUrl: "https://furniture-site-react.vercel.app/",
+    githubUrl: "https://github.com/samimOsman754/furniture-site-react/tree/main",
+
+  },
   {
     title: "Web Code Agency",
     description:
