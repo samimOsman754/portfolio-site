@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { fadeUp, transition } from "../utils/animations";
 
-import BlogApp from "../assets/project/BlogApp.png";
+import BlogApp from "../assets/project/Full-Stack-Blog-App.png";
 import PantoFurniture from "../assets/project/PantoFurniture.png";
 import WebAgency from "../assets/project/WebAgency.png";
 import Burger from "../assets/project/BurgerBuilder.png";
