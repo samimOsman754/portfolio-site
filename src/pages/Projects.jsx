@@ -8,7 +8,6 @@ import PantoFurniture from "../assets/project/PantoFurniture.png";
 import WebAgency from "../assets/project/WebAgency.png";
 import Burger from "../assets/project/BurgerBuilder.png";
 import NexsjsBasic from "../assets/project/NextjsBasic.png";
-import { title } from "framer-motion/client";
 
 // NOTE: You can add your project images to the `src/assets` folder
 // and import them here, then uncomment the image property in projectsData.
@@ -56,6 +55,16 @@ const projectsData = [
     liveUrl: "https://burger-project-eta.vercel.app/",
     githubUrl: "https://github.com/samimOsman754/Burger-project",
   },
+  {
+    title: "Next.js Basic Project",
+    description:
+      "Next.js Basic Project is a beginner-friendly web application built with Next.js, a popular React framework that supports server-side rendering and static site generation out of the box. This project serves as a foundational practice to learn how Next.js works, including page routing, component structure, and layout design.",
+    // image: Project3Img,
+    image: NexsjsBasic,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://next-js-basic-project-kohl.vercel.app/",
+    githubUrl: "https://github.com/samimOsman754/next.js-basic-project",
+  },  
 ];
 
 const Projects = () => {
