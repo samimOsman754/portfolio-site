@@ -114,7 +114,7 @@ const Hero = () => {
         <div className="flex items-center gap-8 mt-8 md:flex-row flex-col">
           {/* view projects button */}
           <motion.a
-          href="/projects"
+          href="/Projects"
           variants={fadeUp}
           initial="initial"
           animate="animate"
@@ -127,7 +127,7 @@ const Hero = () => {
         </motion.a>
           {/* resume button */}
           <motion.a
-            href="https://drive.google.com/file/d/1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tn8JkZiX_98xS7lP-aG68OVyQdtwvLif/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             variants={fadeUp}
