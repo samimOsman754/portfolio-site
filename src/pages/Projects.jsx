@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { fadeUp, transition } from "../utils/animations";
 
+import BlogApp from "../assets/project/BlogApp.png";
 import PantoFurniture from "../assets/project/PantoFurniture.png";
 import WebAgency from "../assets/project/WebAgency.png";
 import Burger from "../assets/project/BurgerBuilder.png";
@@ -16,6 +17,15 @@ import { title } from "framer-motion/client";
 // import Project3Img from "../assets/project3.png";
 
 const projectsData = [
+  {
+    title: "full-stack-blog-app",
+    description: "Full Stack Blog App is a web application built with Next.js and TypeScript that allows users to create, view, and manage blog posts. It combines both the frontend and backend in a single project, featuring modern development tools like Tailwind CSS, PostCSS, and ESLint. The app is designed for scalability and deployed on Vercel for smooth performance and easy updates",
+    // image: Project1Img,
+    image: BlogApp,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Mongoose" ,"Clerk"],
+    liveUrl: "https://full-stack-blog-app-olive.vercel.app/",
+    githubUrl: "https://github.com/samimOsman754/full-stack-blog-app",
+  },
   {
     title: "Panto Furniture",
     description: "This is a modern, responsive e-commerce web application for a furniture store built using React.js. The site showcases a clean and minimal design that highlights various furniture products with intuitive navigation and user-friendly interactions.",
@@ -45,16 +55,6 @@ const projectsData = [
     tags: ["React", "Tailwind CSS"],
     liveUrl: "https://burger-project-eta.vercel.app/",
     githubUrl: "https://github.com/samimOsman754/Burger-project",
-  },
-  {
-    title: "Next.js Basic Project",
-    description:
-      "Next.js Basic Project is a beginner-friendly web application built with Next.js, a popular React framework that supports server-side rendering and static site generation out of the box. This project serves as a foundational practice to learn how Next.js works, including page routing, component structure, and layout design.",
-    // image: Project3Img,
-    image: NexsjsBasic,
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://next-js-basic-project-kohl.vercel.app/",
-    githubUrl: "https://github.com/samimOsman754/next.js-basic-project",
   },
 ];
 
