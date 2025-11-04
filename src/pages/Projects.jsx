@@ -8,6 +8,7 @@ import PantoFurniture from "../assets/project/PantoFurniture.png";
 import WebAgency from "../assets/project/WebAgency.png";
 import Burger from "../assets/project/BurgerBuilder.png";
 import NexsjsBasic from "../assets/project/NextjsBasic.png";
+import NextjsNewsPortal from "../assets/project/NextjsNewsPortal.png";
 
 // NOTE: You can add your project images to the `src/assets` folder
 // and import them here, then uncomment the image property in projectsData.
@@ -16,6 +17,14 @@ import NexsjsBasic from "../assets/project/NextjsBasic.png";
 // import Project3Img from "../assets/project3.png";
 
 const projectsData = [
+  {
+    title: "Next.js-news-portal",
+    description: "The Next.js News Portal is a modern web application built with Next.js and TypeScript. It’s designed to display news articles dynamically, likely using API data. The project features a clean, responsive layout and includes components for listing news, viewing details, and managing routes with Next.js features like static generation or server-side rendering. It’s hosted on Vercel, making it a good example of a fast, SEO-friendly news website built with modern web technologies.",
+    image: NextjsNewsPortal,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "API", "Shadcn/UI"],
+    liveUrl: "https://next-js-news-portal-three.vercel.app/",
+    githubUrl: "https://github.com/samimOsman754/Next.js-news-portal",
+  },
   {
     title: "full-stack-blog-app",
     description: "Full Stack Blog App is a web application built with Next.js and TypeScript that allows users to create, view, and manage blog posts. It combines both the frontend and backend in a single project, featuring modern development tools like Tailwind CSS, PostCSS, and ESLint. The app is designed for scalability and deployed on Vercel for smooth performance and easy updates",
